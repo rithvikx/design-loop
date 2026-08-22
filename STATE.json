@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "name": null,
+    "type": null,
+    "framework": null,
+    "language": null,
+    "package_manager": null
+  },
+  "loop": {
+    "status": "not_started",
+    "phase": "initialization",
+    "iteration": 0,
+    "target_score": 95,
+    "current_score": null,
+    "previous_accepted_score": null,
+    "highest_accepted_score": null,
+    "consecutive_no_improvement_iterations": 0,
+    "consecutive_regression_iterations": 0,
+    "started_at": null,
+    "last_updated_at": null,
+    "completed_at": null
+  },
+  "mode": {
+    "current": null,
+    "detected_from_user": null,
+    "requires_rebuild": false
+  },
+  "research": {
+    "status": "not_started",
+    "user_references_provided": false,
+    "competitor_references_provided": false,
+    "independent_research_required": true,
+    "references_analyzed": 0,
+    "sections_analyzed": 0,
+    "section_winners_selected": false,
+    "synthesis_complete": false,
+    "template_risk": null,
+    "design_direction": null
+  },
+  "skills": {
+    "registry_loaded": false,
+    "selected_skills": [],
+    "unavailable_required_skills": [],
+    "skill_selection_complete": false
+  },
+  "graphify": {
+    "available": true,
+    "initial_graph_created": false,
+    "last_update_status": "not_run",
+    "last_update_iteration": null,
+    "last_update_timestamp": null,
+    "synchronized": false
+  },
+  "current_objective": {
+    "id": null,
+    "title": null,
+    "description": null,
+    "priority": null,
+    "reason": null,
+    "evidence": null
+  },
+  "phase_status": {
+    "initialization": "pending",
+    "baseline": "pending",
+    "implementation": "pending",
+    "browser_verification": "pending",
+    "visual_review": "pending",
+    "ux_review": "pending",
+    "responsive_review": "pending",
+    "technical_review": "pending",
+    "accessibility_review": "pending",
+    "performance_review": "pending",
+    "regression_check": "pending",
+    "acceptance": "pending"
+  },
+  "application": {
+    "dev_server_status": "unknown",
+    "dev_server_url": null,
+    "build_status": "unknown",
+    "test_status": "unknown",
+    "lint_status": "unknown",
+    "typecheck_status": "unknown",
+    "runtime_errors": 0,
+    "console_errors": 0,
+    "network_errors": 0,
+    "broken_routes": 0
+  },
+  "responsive": {
+    "desktop": {
+      "viewport": "1440x900",
+      "status": "not_verified",
+      "score": null
+    },
+    "tablet": {
+      "viewport": "768x1024",
+      "status": "not_verified",
+      "score": null
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "status": "not_verified",
+      "score": null
+    }
+  },
+  "quality": {
+    "visual": null,
+    "ux": null,
+    "responsive": null,
+    "technical": null,
+    "performance": null,
+    "accessibility": null,
+    "overall": null
+  },
+  "issues": {
+    "total": 0,
+    "p0": 0,
+    "p1": 0,
+    "p2": 0,
+    "p3": 0,
+    "open": 0,
+    "resolved": 0,
+    "blocked": 0
+  },
+  "requirements": {
+    "total": 0,
+    "not_started": 0,
+    "in_progress": 0,
+    "implemented": 0,
+    "verified": 0,
+    "blocked": 0,
+    "out_of_scope": 0
+  },
+  "evidence": {
+    "latest_screenshot_directory": null,
+    "latest_evaluation_file": null,
+    "latest_reference_comparison": null,
+    "last_browser_verification": null,
+    "last_build_verification": null,
+    "last_test_verification": null,
+    "last_accessibility_verification": null,
+    "last_performance_verification": null
+  },
+  "accepted_state": {
+    "iteration": 0,
+    "score": null,
+    "commit_or_snapshot": null,
+    "timestamp": null
+  },
+  "history": {
+    "accepted_iterations": [],
+    "rejected_iterations": [],
+    "regression_iterations": [],
+    "major_decisions": []
+  },
+  "next_action": {
+    "type": "initialize",
+    "description": "Inspect the project and establish the baseline.",
+    "priority": "P0"
+  },
+  "gauntlet": {
+    "enabled": true,
+    "status": "not_started",
+    "iteration": 0,
+    "current_comparison": null,
+    "current_reference": null,
+    "largest_gap": null,
+    "largest_gap_priority": null,
+    "result": null,
+    "consecutive_no_improvement": 0,
+    "consecutive_regressions": 0,
+    "plateau": false,
+    "final_gate_passed": false
+  },
+  "decomposition": {
+    "status": "not_started",
+    "parallel_tasks": [],
+    "sequential_tasks": [],
+    "high_coupling_areas": []
+  },
+  "council": {
+    "enabled": true,
+    "last_used": null,
+    "last_question": null,
+    "last_recommendation": null
+  },
+  "limitations": [],
+  "notes": []
+}

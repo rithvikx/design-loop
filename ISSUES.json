@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "description": "Persistent issue database for the Universal Design Loop. Issues must persist across iterations so the agent can track, prioritize, resolve, regress, and avoid duplicating previously identified problems.",
+  "priority_definitions": {
+    "P0": "Critical: blocks the application, core functionality, or major user journey.",
+    "P1": "Major: significantly harms visual quality, UX, responsiveness, functionality, or product usability.",
+    "P2": "Moderate: meaningful quality issue that should be addressed but does not critically affect the product.",
+    "P3": "Polish: minor visual, UX, performance, consistency, or refinement issue."
+  },
+  "status_definitions": {
+    "open": "Issue has been identified but work has not started.",
+    "in_progress": "The current iteration is actively addressing the issue.",
+    "resolved": "The issue has been fixed and verified.",
+    "blocked": "The issue cannot currently be resolved because of a dependency, missing information, tooling limitation, or external constraint.",
+    "wont_fix": "The issue was intentionally not fixed because the cost, risk, or scope is not justified.",
+    "duplicate": "The issue duplicates an existing issue and should reference the original issue."
+  },
+  "category_definitions": {
+    "visual": "Typography, spacing, composition, color, hierarchy, imagery, components, visual consistency, or aesthetics.",
+    "ux": "Usability, information architecture, interaction clarity, navigation, feedback, forms, or user flow.",
+    "responsive": "Viewport-specific layout, mobile, tablet, desktop behavior, overflow, scaling, or adaptive composition.",
+    "technical": "Build, code quality, architecture, runtime errors, console errors, network failures, dependencies, or implementation defects.",
+    "accessibility": "Keyboard access, screen-reader support, semantic structure, focus, contrast, labels, touch targets, or assistive technology issues.",
+    "performance": "Loading performance, bundle size, images, rendering cost, layout shifts, network cost, or runtime performance.",
+    "functional": "A required feature, interaction, workflow, calculation, API action, or business behavior does not work as required.",
+    "content": "Missing, incorrect, unclear, inconsistent, or inappropriate product content.",
+    "security": "Authentication, authorization, input validation, secrets, data exposure, injection, or other security concerns.",
+    "seo": "Metadata, semantic structure, indexing, crawlability, structured data, canonicalization, or SEO-related concerns."
+  },
+  "gauntlet": {
+    "detected_by": null,
+    "reference": null,
+    "reference_advantage": null,
+    "largest_gap": false,
+    "comparison_id": null
+  },
+  "issues": []
+}

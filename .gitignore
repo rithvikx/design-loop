@@ -1,20 +1,12 @@
-﻿# Session and runtime state — do NOT commit these.
-# They are project-specific and get overwritten every run.
-SESSION.json
-STATE.json
-PROGRESS.md
-ISSUES.json
-DECISIONS.md
-
-# Research and screenshot outputs generated at runtime
-research/
-screenshots/
-evaluations/
-
-# OS
+﻿# OS
 .DS_Store
 Thumbs.db
 
 # Editor
 .vscode/
 .idea/
+
+# Runtime generated outputs
+screenshots/
+evaluations/
+research/

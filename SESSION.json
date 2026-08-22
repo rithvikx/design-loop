@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "session_id": null,
+  "status": "not_started",
+  "resume_keyword": "DESIGN-LOOP-RESUME",
+  "project": {
+    "name": null,
+    "path": null
+  },
+  "mode": null,
+  "started_at": null,
+  "last_checkpoint": null,
+  "current_phase": null,
+  "current_iteration": 0,
+  "completed_steps": [],
+  "current_step": null,
+  "next_step": null,
+  "selected_skills": [],
+  "research": {
+    "status": "not_started",
+    "current_reference_index": 0,
+    "references_completed": 0,
+    "references_remaining": 0,
+    "current_website": null,
+    "current_section": null
+  },
+  "implementation": {
+    "status": "not_started",
+    "current_page": null,
+    "current_component": null
+  },
+  "verification": {
+    "browser": "not_verified",
+    "visual": "not_verified",
+    "ux": "not_verified",
+    "responsive": "not_verified",
+    "technical": "not_verified",
+    "accessibility": "not_verified",
+    "performance": "not_verified",
+    "regression": "not_verified"
+  },
+  "graphify": {
+    "status": "not_run",
+    "last_update": null,
+    "graph_path": null
+  },
+  "limits": {
+    "interrupted": false,
+    "reason": null,
+    "last_known_limit_state": "unknown"
+  },
+  "continuation": {
+    "safe_to_resume": false,
+    "resume_instruction": null
+  },
+  "gauntlet": {
+    "enabled": true,
+    "iteration": 0,
+    "current_reference": null,
+    "current_section": null,
+    "current_critic": null,
+    "current_comparison": null,
+    "largest_gap": null,
+    "next_fix": null,
+    "status": "not_started"
+  },
+  "resume": {
+    "keyword": "DESIGN-LOOP-RESUME",
+    "safe_checkpoint": null,
+    "resume_phase": null,
+    "resume_step": null
+  },
+  "notes": []
+}
