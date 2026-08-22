@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Stores reusable observations about website sections and successful design patterns discovered during research.",
+  "sections": {
+    "announcement_bar": [],
+    "navigation": [],
+    "hero": [],
+    "trust": [],
+    "about": [],
+    "services": [],
+    "features": [],
+    "products": [],
+    "properties": [],
+    "gallery": [],
+    "statistics": [],
+    "testimonials": [],
+    "case_studies": [],
+    "pricing": [],
+    "comparison": [],
+    "faq": [],
+    "cta": [],
+    "footer": [],
+    "custom": []
+  },
+  "entry_schema": {
+    "id": null,
+    "name": null,
+    "source_url": null,
+    "source_type": null,
+    "screenshot": null,
+    "score": null,
+    "strengths": [],
+    "weaknesses": [],
+    "structure": null,
+    "typography": null,
+    "spacing": null,
+    "imagery": null,
+    "interaction": null,
+    "responsive_behavior": null,
+    "brand_fit": null,
+    "originality": null,
+    "recommended_use": null,
+    "avoid": [],
+    "notes": null
+  },
+  "gauntlet_evaluation": {
+    "reference_score": null,
+    "current_score": null,
+    "comparison": null,
+    "largest_gap": null,
+    "last_evaluated_iteration": null
+  }
+}

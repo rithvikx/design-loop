@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Registry describing locally available AI skills and when the Universal Design Loop should use them.",
+  "discovery": {
+    "scan_enabled": true,
+    "scan_locations": [],
+    "last_scan": null,
+    "auto_refresh": true
+  },
+  "selection_policy": {
+    "never_assume_skill_exists": true,
+    "never_invoke_irrelevant_skill": true,
+    "prefer_specialized_skill_over_generic_instruction": true,
+    "use_multiple_skills_when_the_task_spans_multiple_domains": true,
+    "record_selected_skills_in_session": true,
+    "record_unavailable_required_skills": true
+  },
+  "skill_categories": {
+    "research": [],
+    "design": [],
+    "frontend": [],
+    "backend": [],
+    "database": [],
+    "mobile": [],
+    "desktop": [],
+    "ecommerce": [],
+    "animation": [],
+    "3d": [],
+    "2d": [],
+    "accessibility": [],
+    "performance": [],
+    "security": [],
+    "seo": [],
+    "testing": [],
+    "devops": [],
+    "content": [],
+    "branding": [],
+    "other": []
+  },
+  "selection_matrix": {
+    "website": [
+      "research",
+      "design",
+      "frontend",
+      "responsive",
+      "accessibility",
+      "performance",
+      "seo"
+    ],
+    "web_application": [
+      "research",
+      "design",
+      "frontend",
+      "backend",
+      "database",
+      "testing",
+      "security",
+      "accessibility",
+      "performance"
+    ],
+    "ecommerce": [
+      "research",
+      "design",
+      "ecommerce",
+      "frontend",
+      "backend",
+      "payments",
+      "security",
+      "performance",
+      "accessibility"
+    ],
+    "mobile_application": [
+      "research",
+      "product-design",
+      "mobile",
+      "frontend",
+      "backend",
+      "accessibility",
+      "testing",
+      "performance"
+    ],
+    "desktop_application": [
+      "research",
+      "product-design",
+      "desktop",
+      "frontend",
+      "backend",
+      "testing",
+      "accessibility",
+      "performance"
+    ],
+    "2d_animated_website": [
+      "research",
+      "design",
+      "frontend",
+      "animation",
+      "motion-design",
+      "performance",
+      "accessibility"
+    ],
+    "3d_website": [
+      "research",
+      "design",
+      "frontend",
+      "3d",
+      "webgl",
+      "animation",
+      "interaction-design",
+      "performance",
+      "accessibility"
+    ]
+  },
+  "decision_intelligence": [
+    {
+      "name": "council",
+      "category": "decision_intelligence",
+      "purpose": "Provide multiple independent perspectives for high-impact design and architecture decisions.",
+      "use_when": [
+        "design_direction",
+        "reference_selection",
+        "section_selection",
+        "originality_review",
+        "rebuild_strategy",
+        "high_risk_architecture",
+        "final_design_review"
+      ],
+      "avoid_when": [
+        "simple_bug_fix",
+        "formatting",
+        "deterministic_test",
+        "routine_implementation"
+      ]
+    }
+  ],
+  "quality_engine": [
+    {
+      "name": "gauntlet",
+      "category": "quality_engine",
+      "purpose": "Provide adversarial independent evaluation and reference comparison.",
+      "use_when": [
+        "visual_quality",
+        "reference_comparison",
+        "design_review",
+        "rebuild_review",
+        "final_acceptance"
+      ]
+    }
+  ],
+  "skills": []
+}

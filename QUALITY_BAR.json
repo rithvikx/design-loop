@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "status": "not_established",
+  "project": null,
+  "overall_target": {
+    "minimum_score": 95,
+    "reference_comparison_required": true,
+    "allow_inconclusive": true,
+    "maximum_template_risk": 40
+  },
+  "sources": {
+    "user_references": [],
+    "competitors": [],
+    "industry_references": [],
+    "section_references": []
+  },
+  "reference_priority": [
+    "user_reference",
+    "strongest_relevant_competitor",
+    "industry_leader",
+    "high_quality_design_reference"
+  ],
+  "section_quality_bar": {},
+  "current_result": {
+    "overall_score": null,
+    "template_risk": null,
+    "reference_comparisons": [],
+    "major_gaps": []
+  },
+  "gauntlet": {
+    "iteration": 0,
+    "status": "not_started",
+    "last_result": null,
+    "largest_gap": null,
+    "largest_gap_priority": null,
+    "reference_advantage_remaining": null,
+    "consecutive_no_improvement": 0,
+    "consecutive_regressions": 0,
+    "quality_plateau": false
+  },
+  "acceptance": {
+    "rubric_score_pass": false,
+    "reference_comparison_pass": false,
+    "template_risk_pass": false,
+    "regression_pass": false,
+    "critical_gaps_resolved": false,
+    "final_decision": "not_complete"
+  },
+  "history": []
+}

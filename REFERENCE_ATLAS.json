@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "project": null,
+  "research_status": "not_started",
+  "user_references": [],
+  "competitor_references": [],
+  "discovered_references": [],
+  "selected_references": [],
+  "rejected_references": [],
+  "section_winners": {},
+  "design_patterns": [],
+  "anti_patterns": [],
+  "synthesis": {
+    "design_direction": null,
+    "visual_language": [],
+    "typography_direction": null,
+    "color_direction": null,
+    "layout_direction": null,
+    "interaction_direction": null,
+    "motion_direction": null,
+    "imagery_direction": null,
+    "originality_strategy": null,
+    "template_risk": null
+  },
+  "quality_bar": {
+    "established": false,
+    "primary_reference": null,
+    "secondary_references": [],
+    "section_references": {}
+  },
+  "comparisons": [],
+  "reference_gaps": [],
+  "template_risk": null,
+  "research_summary": null,
+  "last_updated": null
+}

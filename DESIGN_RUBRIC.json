@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Standardized scoring system for evaluating websites, applications, references, and individual sections.",
+  "score_range": {
+    "minimum": 0,
+    "maximum": 100
+  },
+  "dimensions": {
+    "visual_hierarchy": {
+      "weight": 15,
+      "description": "Clarity and strength of visual hierarchy."
+    },
+    "composition": {
+      "weight": 15,
+      "description": "Balance, structure, whitespace, rhythm, and visual composition."
+    },
+    "typography": {
+      "weight": 10,
+      "description": "Typography quality, hierarchy, readability, and intentionality."
+    },
+    "spacing_rhythm": {
+      "weight": 10,
+      "description": "Consistency and intentionality of spacing and section rhythm."
+    },
+    "ux_clarity": {
+      "weight": 10,
+      "description": "Ease of understanding navigation, actions, and information."
+    },
+    "interaction": {
+      "weight": 10,
+      "description": "Quality and usefulness of interactive states and transitions."
+    },
+    "responsive_quality": {
+      "weight": 10,
+      "description": "Quality of adaptation across viewport sizes."
+    },
+    "brand_fit": {
+      "weight": 5,
+      "description": "Suitability for the target brand and product."
+    },
+    "originality": {
+      "weight": 10,
+      "description": "Distinctiveness and avoidance of generic/template patterns."
+    },
+    "accessibility": {
+      "weight": 5,
+      "description": "Accessibility and inclusive interaction quality."
+    },
+    "reference_competitiveness": {
+      "weight": 10,
+      "description": "How well the current implementation compares against the strongest relevant quality references."
+    },
+    "art_direction": {
+      "weight": 10,
+      "description": "Strength and intentionality of imagery, composition, motion, visual storytelling, and overall creative direction."
+    }
+  },
+  "template_risk": {
+    "range": {
+      "minimum": 0,
+      "maximum": 100
+    },
+    "interpretation": {
+      "0_20": "Highly distinctive",
+      "21_40": "Low template risk",
+      "41_60": "Moderate template risk",
+      "61_80": "High template risk",
+      "81_100": "Extremely generic"
+    },
+    "threshold": 40
+  },
+  "quality_bands": {
+    "95_100": "Exceptional / agency-level",
+    "90_94": "Excellent",
+    "80_89": "Strong",
+    "70_79": "Acceptable",
+    "60_69": "Weak",
+    "0_59": "Insufficient"
+  },
+  "section_scoring": {
+    "enabled": true,
+    "evaluate_individually": true,
+    "compare_across_references": true,
+    "section_types": [
+      "announcement_bar",
+      "navigation",
+      "hero",
+      "trust",
+      "about",
+      "services",
+      "features",
+      "products",
+      "properties",
+      "gallery",
+      "statistics",
+      "testimonials",
+      "case_studies",
+      "pricing",
+      "comparison",
+      "faq",
+      "cta",
+      "footer",
+      "custom"
+    ]
+  },
+  "evaluation_rules": {
+    "use_actual_visual_evidence": true,
+    "prefer_browser_observation": true,
+    "do_not_score_unvisited_pages_as_verified": true,
+    "do_not_fabricate_measurements": true,
+    "record_uncertainty": true,
+    "compare_only_relevant_sections": true,
+    "brand_fit_is_project_specific": true
+  }
+}
