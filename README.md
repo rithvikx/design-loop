@@ -292,7 +292,7 @@ This prevents the builder from grading its own work.
 Tested and documented for use with:
 
 - **Claude Code** (Anthropic)
-- **Antigravity** (Rithvik)
+- **Antigravity** (Google)
 - **Gemini CLI** (Google)
 - **Codex** (OpenAI)
 - **Cursor / Windsurf** (via system prompt injection)
